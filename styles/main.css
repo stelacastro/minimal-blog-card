@@ -43,11 +43,12 @@ body {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .card__badge {
-  padding: 0.25rem 0.75rem;
+  padding: 0.625rem 0.875rem;
+  line-height: 0;
   width: fit-content;
   border-radius: 50px;
   font-size: 0.625rem;
@@ -58,7 +59,7 @@ body {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .card__title {
@@ -73,17 +74,19 @@ body {
   color: var(--dark-gray);
   font-weight: 300;
   width: 90%;
+  line-height: 1.5;
 }
 
 .card__divider {
   background-color: var(--light-blue);
   margin: 1.125rem -1.125rem;
+  border: none;
+  height: 1px;
 }
 
 .card__author {
   font-size: 0.75rem;
   color: var(--dark-gray);
-}
 
 @media (max-width: 768px) {
   .card {
